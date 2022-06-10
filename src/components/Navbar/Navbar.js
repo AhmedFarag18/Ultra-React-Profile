@@ -12,11 +12,11 @@ const Navbar = () => {
                 </Logo>
                 
                 <UlList>
-                    <ListItem><NavbarLink to="/">Home</NavbarLink></ListItem>
-                    <ListItem><Anchor href="/">Work</Anchor></ListItem>
-                    <ListItem><Anchor href="/">Portfolio</Anchor></ListItem>
-                    <ListItem><Anchor href="/">Resume</Anchor></ListItem>
-                    <ListItem><Anchor href="/">About</Anchor></ListItem>
+                    <ListItem><NavbarLink to="/index">Home</NavbarLink></ListItem>
+                    <ListItem><Anchor href="#">Work</Anchor></ListItem>
+                    <ListItem><Anchor href="#">Portfolio</Anchor></ListItem>
+                    <ListItem><Anchor href="#">Resume</Anchor></ListItem>
+                    <ListItem><Anchor href="#">About</Anchor></ListItem>
                     <ListItem><NavbarLink to="/contact">Contact</NavbarLink></ListItem>
                 </UlList>
                 
