@@ -12,7 +12,7 @@ function App() {
         <BrowserRouter>
                 <Navbar />
                 <Routes>
-                    <Route path='/index' element={<Index/>}/>
+                    <Route path='/' element={<Index/>}/>
                     <Route path='/contact' element={<Contact/>} />
                 </Routes>
                 <Footer />
